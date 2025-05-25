@@ -118,50 +118,99 @@
             <h5 class="section-headings">Project Scope</h5>
             <!-- Literature Survey -->
             
-         <!-- Research Gap -->
+<!-- Research Gap -->
 <div id="research_gap" class="sub-section">
   <h2>Research Gap</h2>
   <p>The following gaps were identified in existing smart parking research and systems:</p>
   <div class="row mt-5 research-gap">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <!-- 1. Lack of Holistic Integration -->
+        <div class="col-md-6">
           <div class="fa-container text-center">
-            <i class="fas fa-search fa-3x" style="color: green;"></i>
+            <lord-icon
+                src="https://cdn.lordicon.com/mqgegihh.json"
+                trigger="hover"
+                style="width:60px;height:60px">
+            </lord-icon>
           </div>
           <div class="text-center pt-3">
-            <h5>Lack of Holistic Integration</h5>
+            <h5>Space Management</h5>
           </div>
           <div>
-            <p style="text-align: justify;">Most parking systems focus on isolated features like detection, navigation, or payment, lacking a unified architecture. Real-time, synchronized automation across all aspects of parking is missing in existing solutions.</p>
+            <p class="narrow-text" style="text-align: justify;">
+              License Plate Recognition & Vehicle Classification for Space Management Most parking systems focus on isolated features like detection, navigation, or payment, lacking a unified architecture. Real-time, synchronized automation across all aspects of parking is missing in existing solutions.
+            </p>
           </div>
         </div>
-        <div class="col-md-4">
+
+        <!-- 2. Navigation Limitations -->
+        <div class="col-md-6">
           <div class="fa-container text-center">
-            <i class="fas fa-chart-line fa-3x" style="color: green;"></i>
+            <lord-icon
+                src="https://cdn.lordicon.com/onmwuuox.json"
+                trigger="loop"
+                delay="2000"
+                style="width:60px;height:60px">
+            </lord-icon>
+            
           </div>
           <div class="text-center pt-3">
-            <h5>AR Navigation Limitations</h5>
+            <h5>Navigation Limitations</h5>
           </div>
           <div>
-            <p style="text-align: justify;">Current AR-based systems lack full 3D indoor navigation support with dynamic parking data. They often rely on static 2D visuals or fail to account for changing occupancy in multi-level environments.</p>
+            <p class="narrow-text" style="text-align: justify;">
+              Current AR-based systems lack full 3D indoor navigation support with dynamic parking data. They often rely on static 2D visuals or fail to account for changing occupancy in multi-level environments.
+            </p>
           </div>
         </div>
-        <div class="col-md-4">
+      </div>
+
+      <div class="row mt-4">
+        <!-- 3. Insufficient Payment Security -->
+        <div class="col-md-6">
           <div class="fa-container text-center">
-            <i class="fas fa-lock fa-3x" style="color: green;"></i>
+            <lord-icon
+              src="https://cdn.lordicon.com/sjoccsdj.json"
+              trigger="loop"
+              style="width:60px;height:60px">
+          </lord-icon>
           </div>
           <div class="text-center pt-3">
             <h5>Insufficient Payment Security</h5>
           </div>
           <div>
-            <p style="text-align: justify;">Many payment systems rely on centralized, non-transparent servers prone to tampering. Blockchain-based automation and decentralized fee handling remain underutilized in real-world applications.</p>
+            <p class="narrow-text" style="text-align: justify;">
+              Many payment systems rely on centralized, non-transparent servers prone to tampering. Blockchain-based automation and decentralized fee handling remain underutilized in real-world applications.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4. Violation Detection -->
+        <div class="col-md-6">
+          <div class="fa-container text-center">
+            <lord-icon
+              src="https://cdn.lordicon.com/iltqorsz.json"
+              trigger="loop"
+              colors="primary:#004480"
+              style="width:60px;height:60px">
+            </lord-icon>
+          </div>
+          <div class="text-center pt-3">
+            <h5>Real-Time Violation Detection & Management</h5>
+          </div>
+          <div>
+            <p class="narrow-text" style="text-align: justify;">
+              Most systems lack real-time detection of parking violations like double parking or overstaying. Deep learning-based monitoring and automated enforcement through fines or in-app alerts remain largely unimplemented, reducing compliance and space efficiency.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
 
 <!-- Research Problem & Solution -->
 <div id="research_problem" class="sub-section">
@@ -188,7 +237,7 @@
         <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
       </div>
       <div class="col-6">
-        <h4>License Plate Recognition & Vehicle Classification</h4>
+        <h4>License Plate Recognition & Vehicle Classification for Space Management</h4>
         <p style="text-align: justify;">Automatically identify and classify vehicles using YOLOv5 and Tesseract OCR for accurate license plate recognition and efficient space allocation based on vehicle size and type.</p>
       </div>
     </div>
@@ -778,6 +827,8 @@
     <script src="./lib/fontawesome/js/all.min.js"></script>
     <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
 </body>
 
 </html>

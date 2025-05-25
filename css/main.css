@@ -775,3 +775,10 @@ a {
     background-size: 200%;
     background-image: linear-gradient(to left, #52BE80, #196F3D, #52BE80)
 }
+
+
+.narrow-text {
+  max-width: 410px;
+  margin: 0 auto;
+  text-align: center;
+}
